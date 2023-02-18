@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import profilePicture from '../../assets/profilePicture.JPG';
 import beerFinder from '../../assets/beer-finder.png';
 import noteTaker from '../../assets/note-taker.png';
 import jate from '../../assets/jate.png';
@@ -14,15 +13,18 @@ export default function Portfolio() {
 		<div>
 			<h4 className='portfolio-title'>Portfolio</h4>
 			<div className='container-fluid'>
-				<div className='row mb-3'>
+				<div className='row'>
 					{/* 
                         
                         Card 1 (Beer Finder)
 
                     */}
 
-					<div className='col-sm-12 col-md-4'>
-						<Card className='m-auto text-center' style={{ width: '18rem' }}>
+					<div className='col-sm-12 col-md-4 mb-3'>
+						<Card
+							className='m-auto text-center card-custom'
+							style={{ width: '18rem', height: '28rem' }}
+						>
 							<Card.Img variant='top' src={beerFinder} />
 							<Card.Body>
 								<Card.Title>Beer Finder</Card.Title>
@@ -46,6 +48,10 @@ export default function Portfolio() {
 									Deployed App
 								</Button>
 							</Card.Body>
+							<span className='top'></span>
+							<span className='right'></span>
+							<span className='bottom'></span>
+							<span className='left'></span>
 						</Card>
 					</div>
 					{/* 
@@ -53,8 +59,11 @@ export default function Portfolio() {
                         Card 2 (Note Taker)
 
                     */}
-					<div className='col-sm-12 col-md-4'>
-						<Card className='m-auto text-center' style={{ width: '18rem' }}>
+					<div className='col-sm-12 col-md-4 mb-3'>
+						<Card
+							className='m-auto text-center card-custom'
+							style={{ width: '18rem', height: '28rem' }}
+						>
 							<Card.Img variant='top' src={noteTaker} />
 							<Card.Body>
 								<Card.Title className='mt-5'>Note Taker</Card.Title>
@@ -78,6 +87,10 @@ export default function Portfolio() {
 									Deployed App
 								</Button>
 							</Card.Body>
+							<span className='top'></span>
+							<span className='right'></span>
+							<span className='bottom'></span>
+							<span className='left'></span>
 						</Card>
 					</div>
 					{/* 
@@ -86,8 +99,11 @@ export default function Portfolio() {
 
                     */}
 
-					<div className='col-sm-12 col-md-4'>
-						<Card className='m-auto text-center' style={{ width: '18rem' }}>
+					<div className='col-sm-12 col-md-4 mb-3'>
+						<Card
+							className='m-auto text-center card-custom'
+							style={{ width: '18rem', height: '28rem' }}
+						>
 							<Card.Img variant='top' src={jate} />
 							<Card.Body>
 								<Card.Title>J.A.T.E.</Card.Title>
@@ -112,18 +128,25 @@ export default function Portfolio() {
 									Deployed App
 								</Button>
 							</Card.Body>
+							<span className='top'></span>
+							<span className='right'></span>
+							<span className='bottom'></span>
+							<span className='left'></span>
 						</Card>
 					</div>
 				</div>
-				<div className='row mb-3'>
+				<div className='row'>
 					{/* 
                         
                         Card 4
 
                     */}
 
-					<div className='col-sm-12 col-md-4'>
-						<Card className='m-auto text-center' style={{ width: '18rem' }}>
+					<div className='col-sm-12 col-md-4 mb-3'>
+						<Card
+							className='m-auto text-center card-custom'
+							style={{ width: '18rem', height: '28rem' }}
+						>
 							<Card.Img variant='top' src={weatherDashboard} />
 							<Card.Body>
 								<Card.Title>Weather Dashboard</Card.Title>
@@ -148,6 +171,10 @@ export default function Portfolio() {
 									Deployed App
 								</Button>
 							</Card.Body>
+							<span className='top'></span>
+							<span className='right'></span>
+							<span className='bottom'></span>
+							<span className='left'></span>
 						</Card>
 					</div>
 
@@ -157,8 +184,11 @@ export default function Portfolio() {
 
                     */}
 
-					<div className='col-sm-12 col-md-4 '>
-						<Card className='m-auto text-center' style={{ width: '18rem' }}>
+					<div className='col-sm-12 col-md-4 mb-3'>
+						<Card
+							className='m-auto text-center card-custom'
+							style={{ width: '18rem', height: '28rem' }}
+						>
 							<Card.Img variant='top' src={passwordGenerator} />
 							<Card.Body>
 								<Card.Title>Password Generator</Card.Title>
@@ -183,6 +213,10 @@ export default function Portfolio() {
 									Deployed App
 								</Button>
 							</Card.Body>
+							<span className='top'></span>
+							<span className='right'></span>
+							<span className='bottom'></span>
+							<span className='left'></span>
 						</Card>
 					</div>
 
@@ -192,8 +226,11 @@ export default function Portfolio() {
 
                     */}
 
-					<div className='col-sm-12 col-md-4 text-center'>
-						<Card className='m-auto' style={{ width: '18rem' }}>
+					<div className='col-sm-12 col-md-4 mb-3 '>
+						<Card
+							className='m-auto text-center card-custom'
+							style={{ width: '18rem', height: '28rem' }}
+						>
 							<Card.Img variant='top' src={workDayScheduler} />
 							<Card.Body>
 								<Card.Title>Work Day Scheduler</Card.Title>
@@ -205,6 +242,10 @@ export default function Portfolio() {
 									Deployed App
 								</Button>
 							</Card.Body>
+							<span className='top'></span>
+							<span className='right'></span>
+							<span className='bottom'></span>
+							<span className='left'></span>
 						</Card>
 					</div>
 				</div>

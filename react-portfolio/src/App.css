@@ -25,7 +25,9 @@
 }
 
 .my-name,
-.about-container {
+.about-container,
+.portfolio-title,
+.contact-title {
 	color: rgb(59, 68, 75);
 }
 
@@ -40,10 +42,184 @@
 .portfolio-title {
 	text-align: center;
 	margin-top: 2rem;
+	margin-bottom: 4rem;
 }
 
 .custom-button {
 	width: 42%;
+	color: white;
+	border-color: white;
+}
+
+/* Card Animations */
+
+.card-custom {
+	color: white;
+	background-color: darkslategray;
+	overflow: hidden;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+
+p {
+	font-size: 0.95rem;
+	text-align: center;
+}
+
+span {
+	position: absolute;
+	border-radius: 100vmax;
+}
+
+.top {
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 5px;
+	background: linear-gradient(90deg, transparent 50%, white, black);
+}
+
+.bottom {
+	right: 0;
+	bottom: 0;
+	height: 5px;
+	background: linear-gradient(90deg, white, black, transparent 50%);
+}
+
+.right {
+	top: 0;
+	right: 0;
+	width: 5px;
+	height: 0;
+	background: linear-gradient(180deg, transparent 30%, white, black);
+}
+
+.left {
+	left: 0;
+	bottom: 0;
+	width: 5px;
+	height: 0;
+	background: linear-gradient(180deg, white, black, transparent 70%);
+}
+
+.top {
+	animation: animateTop 3s ease-in-out infinite;
+}
+
+.bottom {
+	animation: animateBottom 3s ease-in-out infinite;
+}
+
+.right {
+	animation: animateRight 3s ease-in-out infinite;
+}
+
+.left {
+	animation: animateLeft 3s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+	25% {
+		width: 100%;
+		opacity: 1;
+	}
+
+	30%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes animateBottom {
+	0%,
+	50% {
+		opacity: 0;
+		width: 0;
+	}
+
+	75% {
+		opacity: 1;
+		width: 100%;
+	}
+
+	76%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes animateRight {
+	0%,
+	25% {
+		opacity: 0;
+		height: 0;
+	}
+
+	50% {
+		opacity: 1;
+		height: 100%;
+	}
+
+	55%,
+	100% {
+		height: 100%;
+		opacity: 0;
+	}
+}
+
+@keyframes animateLeft {
+	0%,
+	75% {
+		opacity: 0;
+		bottom: 0;
+		height: 0;
+	}
+
+	100% {
+		opacity: 1;
+		height: 100%;
+	}
+}
+
+/* Contact Page Styles */
+.contact-form {
+	max-width: 900px;
+	border: 3px solid black;
+	border-radius: 8px;
+	background-color: aliceblue;
+}
+
+.contact-title {
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.form-input {
+	border-width: 1px;
+	width: 60%;
+	border-radius: 8px;
+	resize: none;
+}
+
+.label {
+	margin-top: 1rem;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.submit-btn {
+	margin: auto;
+	width: 30%;
+	margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+
+.clear {
+	clear: both;
+	height: 8rem;
 }
 
 /* Media Queries */
