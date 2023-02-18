@@ -2,7 +2,7 @@
 
 * {
 	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Geneva, Tahoma, sans-serif;
 }
 
 /* About Me Section */
@@ -27,7 +27,10 @@
 .my-name,
 .about-container,
 .portfolio-title,
-.contact-title {
+.contact-title,
+.resume-title,
+.custom-button,
+.card-custom {
 	color: rgb(59, 68, 75);
 }
 
@@ -39,7 +42,8 @@
 
 /* Portfolio Section */
 
-.portfolio-title {
+.portfolio-title,
+.resume-title {
 	text-align: center;
 	margin-top: 2rem;
 	margin-bottom: 4rem;
@@ -47,20 +51,25 @@
 
 .custom-button {
 	width: 42%;
-	color: white;
-	border-color: white;
+	background-color: lightgrey;
+	border-color: rgb(59, 68, 75);
+}
+
+.custom-button:hover {
+	background-color: white;
+	border-color: rgb(59, 68, 75);
+	color: rgb(59, 68, 75);
 }
 
 /* Card Animations */
 
 .card-custom {
-	color: white;
-	background-color: darkslategray;
+	background-color: aliceblue;
 	overflow: hidden;
-	border-top: 2px solid black;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
+	border-top: 2px solid aliceblue;
+	border-right: 2px solid aliceblue;
+	border-bottom: 2px solid aliceblue;
+	border-left: 2px solid aliceblue;
 }
 
 p {
@@ -78,14 +87,14 @@ span {
 	left: 0;
 	width: 0;
 	height: 5px;
-	background: linear-gradient(90deg, transparent 50%, white, black);
+	background: linear-gradient(90deg, transparent 50%, white, skyblue);
 }
 
 .bottom {
 	right: 0;
 	bottom: 0;
 	height: 5px;
-	background: linear-gradient(90deg, white, black, transparent 50%);
+	background: linear-gradient(90deg, white, skyblue, transparent 50%);
 }
 
 .right {
@@ -93,7 +102,7 @@ span {
 	right: 0;
 	width: 5px;
 	height: 0;
-	background: linear-gradient(180deg, transparent 30%, white, black);
+	background: linear-gradient(180deg, transparent 30%, white, skyblue);
 }
 
 .left {
@@ -101,7 +110,7 @@ span {
 	bottom: 0;
 	width: 5px;
 	height: 0;
-	background: linear-gradient(180deg, white, black, transparent 70%);
+	background: linear-gradient(180deg, white, skyblue, transparent 70%);
 }
 
 .top {
@@ -213,6 +222,23 @@ span {
 	margin: auto;
 	width: 30%;
 	margin-bottom: 1rem;
+}
+
+/* Resume Page Styles */
+
+.resume-col {
+	margin-top: 1rem;
+}
+
+.resume-card,
+.proficiencies-card {
+	background-color: aliceblue;
+}
+
+.proficiencies-card li {
+	list-style: none;
+	max-width: 50%;
+	margin: auto;
 }
 
 /* Footer Styles */

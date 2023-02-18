@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import beerFinder from '../../assets/beer-finder.png';
 import noteTaker from '../../assets/note-taker.png';
 import jate from '../../assets/jate.png';
@@ -35,15 +35,15 @@ export default function Portfolio() {
 									href='https://github.com/Canadianfaller7/beer-finder'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									GitHub Repo
 								</Button>
 								<Button
 									href='https://canadianfaller7.github.io/beer-finder/'
 									target='_blank'
+									variant='info'
 									className='m-1 custom-button'
-									variant='outline-dark'
 								>
 									Deployed App
 								</Button>
@@ -74,7 +74,7 @@ export default function Portfolio() {
 									href='https://github.com/danielcgraves/note-taker'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									GitHub Repo
 								</Button>
@@ -82,7 +82,7 @@ export default function Portfolio() {
 									href='https://daniel-graves-note-taker.herokuapp.com'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									Deployed App
 								</Button>
@@ -115,7 +115,7 @@ export default function Portfolio() {
 									href='https://github.com/danielcgraves/text-editor'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									GitHub Repo
 								</Button>
@@ -123,7 +123,7 @@ export default function Portfolio() {
 									href='https://daniel-graves-text-editor.herokuapp.com/'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									Deployed App
 								</Button>
@@ -158,7 +158,7 @@ export default function Portfolio() {
 									href='https://github.com/danielcgraves/weather-dashboard'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									GitHub Repo
 								</Button>
@@ -166,7 +166,7 @@ export default function Portfolio() {
 									href='https://danielcgraves.github.io/weather-dashboard/'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									Deployed App
 								</Button>
@@ -200,7 +200,7 @@ export default function Portfolio() {
 									href='https://github.com/danielcgraves/password-generator'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									GitHub Repo
 								</Button>
@@ -208,7 +208,7 @@ export default function Portfolio() {
 									href='https://danielcgraves.github.io/password-generator/'
 									target='_blank'
 									className='m-1 custom-button'
-									variant='outline-dark'
+									variant='info'
 								>
 									Deployed App
 								</Button>
@@ -235,10 +235,10 @@ export default function Portfolio() {
 							<Card.Body>
 								<Card.Title>Work Day Scheduler</Card.Title>
 								<Card.Text>Write and save notes in a day calendar.</Card.Text>
-								<Button className='m-1 custom-button' variant='outline-dark'>
+								<Button className='m-1 custom-button' variant='info'>
 									GitHub Repo
 								</Button>
-								<Button className='m-1 custom-button' variant='outline-dark'>
+								<Button className='m-1 custom-button' variant='info'>
 									Deployed App
 								</Button>
 							</Card.Body>

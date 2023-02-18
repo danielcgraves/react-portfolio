@@ -13,17 +13,19 @@ export default function About() {
 			<p className='mb-2'>Hello!</p>
 			<p className='mb-4'>
 				My name is Daniel Graves. I am 30-year-old, happily-married, dog dad and
-				also a full stack developer. I have experience using a variety of
-				development tools including: HTML, CSS, JavaScript, SQL, NoSQL,
-				Mongo/Mongoose, MySQL, Express, React, Node, jQuery, Bootstrap, MERN and
-				more!
+				also a full stack developer. I enjoy being outdoors whether it's hiking,
+				paddle boarding, snow shoeing or playing some tennis! I'm also a
+				professional-level musician with over 25 years experience playing the
+				guitar.
 			</p>
 			<p className='mb-4'>
 				I recently graduated from the Full Stack Web Development program at the
 				University Of Utah. The rigorous program kept me on my toes and forced me to
 				work at a fast pace in a high stress environment. I also collaborated with
 				other students in the program to build projects and applications, many of
-				which you will find in my portfolio page.
+				which you will find in my <i>portfolio </i>page. If you'd like to see my
+				coding language and database proficiencies, please check out the
+				<i> resume </i>page!
 			</p>
 			<p>
 				I am always ready and excited to learn new technologies and my experience as
