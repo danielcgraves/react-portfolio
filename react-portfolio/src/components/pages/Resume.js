@@ -14,7 +14,8 @@ export default function Resume() {
 						<Card.Title className='mb-5'>Resume</Card.Title>
 
 						<Button
-							href='https://github.com/Canadianfaller7/beer-finder'
+							href={require('../../assets/daniel-graves-resume.pdf')}
+							download
 							target='_blank'
 							variant='outline-dark'
 						>
