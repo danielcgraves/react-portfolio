@@ -12,7 +12,7 @@
 
 ## Usage
 
-![alt text](C:\Users\danie\repos\challenges\react-portfolio\react-portfolio\src\assets\react-portfolio-screenshot.png)
+![alt text](./src/assets/react-portfolio-screenshot.png)
 
 ## Contributors
 
